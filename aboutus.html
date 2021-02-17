@@ -1,0 +1,78 @@
+<?php  
+  session_start();
+  if (!isset($_SESSION['username'])) {  
+    header("Location: login.php");
+  }
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About me...</title>
+  <style>
+    
+    body{
+      margin: 0;
+      padding: 0;
+      font-weight: Century Gothic;
+      background: url(pics & videos/back.jpg)repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    .container{
+      height: 75vh;
+      width: 30%;
+      background: rgba(0,0,0,0.6);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      padding: 0 20px;
+    }
+    .img{
+      height: 70px;
+      width: 70px;
+      background: url(pics & videos/Abhiii.jpg)no-repeat;
+      background-size: cover;
+      background-position: center;
+      border-radius: 50px;
+      position: absolute;
+      top: 0%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+    .container h1{
+      color: white;
+      margin-top: 50px;
+    }
+    .container p{
+      color: white;
+      margin-top: 60px;
+      font-size: large;
+    }     
+
+    .container p a:hover{
+        text-decoration: none;
+        color: orange;
+    }
+
+  </style>
+
+
+</head>
+<body>
+  <div class="container">
+    <center> 
+      <h1>ABOUT ME...</h1>
+      <div class="img">
+        
+      </div>
+      <p>I am ABHINAV THAKUR.I am from NANGAL.I'm pursuing B-Tech in CSE.  <br>
+        <br>
+        <br>
+      <a href="1801954_RESUME.pdf" target="_blank">RESUME</a>
+      </p>
+    </center>
+  </div>
+</body>
+</html>

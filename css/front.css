@@ -1,0 +1,106 @@
+.bgimg{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../5.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 660px;
+}
+
+
+.headerset{
+	padding-top: 230px;
+	box-sizing: border-box;
+}
+.headerset h1{
+	font-size: 50px;
+	font-weight: bold;
+	color: cyan
+}
+.headerset h2{
+	font-size: 40px;
+	font-weight: bold;	
+}
+
+
+
+
+.places{
+	padding: 100px 0px 50px;
+	width: 100%;
+}
+.places h1{
+	font-size: 50px;
+	font-weight: bold; 
+}
+
+
+
+.card{
+	margin-top: 40px;
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 990px) {
+
+}
+
+@media (max-width: 800px) {
+	
+}
+
+@media (max-width: 600px) {
+	
+}
+
+@media (max-width: 480px) {
+
+}
+
+
+/*
+
+@media(min-width: 992px){
+
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.headerset h1{
+	font-size: 35px;
+}
+
+	.headerset h2{
+	font-size: 25px;	
+}
+
+}
+@media(min-width: 575px) and (max-width: 767px){
+
+}
+@media(min-width: 480px) and (max-width: 574px){
+
+}
+@media(max-width: 479px){
+	.headerset h1{
+	font-size: 25px;
+	font-weight: bold;
+	color: cyan
+}
+
+.headerset h2{
+	font-size: 20px;
+	font-weight: bold;	
+}
+
+.places h1{
+	font-size: 25px; 
+}
+
+}
+
+*/
